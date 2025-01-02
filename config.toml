@@ -24,11 +24,19 @@ enabled = true
 build-mode = "both"
 include-stock = true
 excluded-patches = ""
-included-patches = ""
+included-patches = """\
+    'Override certificate pinning' \
+    'Export internal data documents provider' \
+    'Spoof SIM country' \
+    """
 version = "auto"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+patcher-args = """\
+    -OnetworkCountryIso=jp \
+    -OsimCountryIso=jp \
+    """
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [GooglePhotos]
