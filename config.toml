@@ -23,7 +23,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 enabled = true
 build-mode = "both"
 include-stock = true
-excluded-patches = ""
+excluded-patches = "'Spoof client'"
 included-patches = """\
     'Override certificate pinning' \
     'Export internal data documents provider' \
