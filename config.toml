@@ -48,6 +48,12 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 [Spotify]
+build-mode = "both"
+excluded-patches = ""
+included-patches = ""
+version = "auto"
+arch = "arm64-v8a"
+include-stock = true
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
 
