@@ -107,7 +107,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-s
 
 [X-Piko]
 app-name = "X"
-enable = true
+enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 build-mode = "apk"
 version = "auto"
@@ -133,7 +133,7 @@ included-patches = """\
 
 [X-Piko-MaterialYou]
 app-name = "X"
-enable = true
+enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 build-mode = "apk"
 version = "auto"
@@ -158,7 +158,7 @@ included-patches = """\
     
 [Twitter-Piko]
 app-name = "Twitter"
-enable = true
+enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 build-mode = "apk"
 version = "auto"
@@ -185,7 +185,7 @@ included-patches = """\
 
 [Twitter-Piko-MaterialYou]
 app-name = "Twitter"
-enable = true
+enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 build-mode = "apk"
 version = "auto"
